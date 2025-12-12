@@ -1,0 +1,6 @@
+echo "mac_mitm" >> .gitignore
+echo "*.o" >> .gitignore
+echo "build/" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "*.txt" >> .gitignore
+echo "*.log" >> .gitignore
