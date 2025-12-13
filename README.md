@@ -42,6 +42,7 @@ This software is developed as a Proof-of-Concept (PoC) for network security rese
 To install dependencies on macOS using Homebrew:
 ```bash
 brew install libpcap
+```
 ````
 
 -----
