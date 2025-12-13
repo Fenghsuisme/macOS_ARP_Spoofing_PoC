@@ -1,6 +1,23 @@
-echo "mac_mitm" >> .gitignore
-echo "*.o" >> .gitignore
-echo "build/" >> .gitignore
-echo ".DS_Store" >> .gitignore
-echo "*.txt" >> .gitignore
-echo "*.log" >> .gitignore
+# --- macOS 系統垃圾檔 ---
+.DS_Store
+._*
+
+# --- C 語言編譯產物 ---
+*.o
+*.out
+*.dSYM/
+build/
+# 你的執行檔名稱 (務必擋掉)
+mac_mitm
+
+# --- 敏感資料 (絕對不能上傳) ---
+# 所有的文字檔 (避免不小心上傳密碼紀錄)
+*.txt
+*.log
+# 特定的紀錄檔格式
+captured_*.txt
+passwords.txt
+
+# --- 編輯器設定 (可選) ---
+.vscode/
+.idea/
