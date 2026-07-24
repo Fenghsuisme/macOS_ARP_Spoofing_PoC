@@ -1,4 +1,4 @@
-````markdown
+
 # macOS ARP Spoofing & HTTP Sniffer (PoC)
 
 ![Platform](https://img.shields.io/badge/platform-macOS-lightgrey)
@@ -43,7 +43,7 @@ To install dependencies on macOS using Homebrew:
 ```bash
 brew install libpcap
 ```
-````
+
 
 -----
 
@@ -140,5 +140,3 @@ sysctl -w net.inet.ip.forwarding=1
 
 This project is licensed under the MIT License.
 
-```
-```
